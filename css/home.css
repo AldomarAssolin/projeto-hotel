@@ -142,8 +142,8 @@ section.sobre .card_pousada .pousada_description .card-img{
 }
 
 section.sobre .card_pousada .pousada_description .card-img img{
-    width: 70%;
-    height: 100%;
+    width: 100px;
+    height: 150px;
     object-fit: cover;
 }
 
@@ -200,15 +200,9 @@ section.sobre .card_pousada .pousada_description .card-img img{
         width: 100%;
     }
 
-}
-
-@media(max-width:320px){
-    section.welcome .center .quartos_tipos .card_quartos{
-        width: 100%;
-    }
-
     section.sobre .card_pousada .pousada_description{
         flex-direction: column;
+        padding: 0;
     }
 
     section.sobre .card_pousada .pousada_description .card-img{
@@ -216,7 +210,14 @@ section.sobre .card_pousada .pousada_description .card-img img{
     }
     
     section.sobre .card_pousada .pousada_description .card-img img{
-        width: 70%;
-        height: 100%;
+        width: 190px;
+        height: 150px;
+    }
+
+}
+
+@media(max-width:320px){
+    section.welcome .center .quartos_tipos .card_quartos{
+        width: 100%;
     }
 }
