@@ -3,7 +3,6 @@ let words = ['Pousada', 'Secreta']
 let indexChar = 0
 let indexWords = 0
 let interval
-//elInput.focus()
 run()
 
 function run() {
