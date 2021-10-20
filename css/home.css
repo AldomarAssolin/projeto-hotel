@@ -196,13 +196,16 @@ section.sobre .card_pousada .pousada_description .card-img img{
         font-size: 0.9rem;
         padding: 35px 0 0;
     }
+
+
     section.welcome .center .quartos_tipos .card_quartos{
         width: 100%;
     }
 
     section.sobre .card_pousada .pousada_description{
+        width: 100%;
         flex-direction: column;
-        padding: 0;
+        padding: 0 15px;
     }
 
     section.sobre .card_pousada .pousada_description .card-img{
@@ -210,7 +213,7 @@ section.sobre .card_pousada .pousada_description .card-img img{
     }
     
     section.sobre .card_pousada .pousada_description .card-img img{
-        width: 190px;
+        width: 250px;
         height: 150px;
     }
 
@@ -218,6 +221,10 @@ section.sobre .card_pousada .pousada_description .card-img img{
 
 @media(max-width:320px){
     section.welcome .center .quartos_tipos .card_quartos{
+        width: 100%;
+    }
+    
+    section.sobre .card_pousada .pousada_description .card-title{
         width: 100%;
     }
 }
