@@ -2,7 +2,7 @@
 //section banner 
 window.onload = () => {
 
-    const hora = new Date().getHours()
+    const hora = 19//new Date().getHours()
 
     const banner = document.querySelector('section.banner')
     const welcome = document.querySelector('.welcome')
