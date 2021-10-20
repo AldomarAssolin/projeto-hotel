@@ -4,19 +4,6 @@
     font-family: 'Source Sans Pro', sans-serif;
 }
 
-#input{
-    width: 100%;
-    text-align: center;
-    font-size: 2.3rem;
-    color: #fff;
-    text-transform: uppercase;
-    font-weight: 400;
-    font-family: 'Source Sans Pro', sans-serif;
-
-    background: transparent;
-    border: none;
-}
-
 /* main */
 
 main{
@@ -36,7 +23,6 @@ section.banner{
 }
 
 section.banner .banner_call{
-    
     text-align: center;
     color: #fff;
     padding: 20px 20px;
@@ -50,6 +36,19 @@ section.banner .banner_call h2{
     font-weight: bold;
     padding: 20px 0 0;
     margin-bottom: 15px;
+}
+
+#input{
+    width: 100%;
+    text-align: center;
+    font-size: 2.3rem;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-family: 'Source Sans Pro', sans-serif;
+
+    background: transparent;
+    border: none;
 }
 
 section.banner .banner_call h3{
@@ -150,7 +149,28 @@ section.sobre .card_pousada .pousada_description .card-img img{
 
 
 @media(max-width:768px){
+    section.banner{
+        height: 450px;
+        padding: 0;
+        align-items: none;
+    }
 
+    section.banner .banner_call{
+        padding: 10px 10px;
+    }
+
+    #input{
+        font-size: 1.3rem;
+    }
+    
+    section.banner .banner_call h3{
+        font-size: 1.4rem;
+        margin-bottom: 5px;
+    }
+    
+    section.banner .banner_call p{
+        font-size: 1rem;
+    }
     section.welcome{
         padding: 0 10px;
     }
