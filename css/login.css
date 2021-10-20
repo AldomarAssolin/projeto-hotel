@@ -87,3 +87,14 @@ form span:hover{
 .btn button:hover{
     background: #1d1d1dc7;
 }
+#btn_login, #btn_register{
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    
+    font-family: 'Montserrat', sans-serif;
+    
+    border: none;
+    background: transparent;
+    cursor: pointer;
+}
